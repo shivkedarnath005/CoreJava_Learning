@@ -1,0 +1,28 @@
+Points to Remember
+Unchecked Exceptions: These are exceptions that do not need to be declared in a method 
+or constructor's throws clause if they can be thrown by the execution of the method or 
+constructor and propagate outside the method or constructor boundary. They include 
+RuntimeException and its subclasses.
+
+Checked Exceptions: These are exceptions that need to be declared in a method or
+ constructor's throws clause. They are checked at compile-time. Examples include 
+ IOException, SQLException, etc.
+
+Custom Exceptions: You can create custom exception classes by extending Exception 
+(for checked exceptions) or RuntimeException (for unchecked exceptions).
+
+Using the throw keyword effectively helps in maintaining clean and robust error 
+handling in Java programs.
+
+THROW KEYWORD USE - 
+In Java, the throw keyword is used to explicitly throw an exception from a method or any
+ block of code. The throw keyword is typically used in the following scenarios:
+
+Creating Custom Exceptions: When you want to create and throw custom exceptions based on 
+specific conditions in your program.
+
+Re-throwing an Exception: When you want to catch an exception and then re-throw it to 
+be handled at a higher level.
+
+Handling Specific Conditions: When certain conditions occur, and you want to stop the 
+execution of the current method and propagate an error up the call stack.
